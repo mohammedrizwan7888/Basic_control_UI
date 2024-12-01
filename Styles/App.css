@@ -1,0 +1,122 @@
+/* src/styles/App.css */
+.role-form-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-gap: 10px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  align-items: center;
+  /* text-align: center; */
+  max-width: 100%;
+  border-radius: 4px;
+  border: none;
+  padding: 60px;
+}
+
+.role-form-container .input {
+  text-align: center;
+
+}
+
+
+.role-heading {
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+
+.permissions-section {
+  background-color: #f0f8ff;
+  padding: 2px;
+  margin: -2px -14px;
+  font-size: medium;
+  border-radius: 20px;
+}
+
+.select-all-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+
+.select-all-container input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+
+
+/* Center and style role name and search box */
+.role-form-container h2 {
+  font-size: 1.2rem;
+  /* Smaller font size */
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.role-search-box {
+  width: 50%;
+  margin: 0 auto 10px;
+  font-size: 0.9rem;
+
+}
+
+/* Positioning of horizontal line below headings */
+.permissions-section hr {
+  margin-top: 10px;
+  /* Adjusts hr spacing */
+  margin-bottom: 10px;
+}
+
+/* Left margin for side headings and 'Select All' button */
+.permissions-section {
+  margin-left: 20px;
+  /* Apply left margin to section */
+}
+
+.select-all-container {
+  margin-left: 20px;
+  /* Left margin for 'Select All' */
+}
+
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  /* Center the buttons */
+  gap: 10px;
+  margin:190px;
+  /* Add spacing between buttons */
+  margin-top: 0px;
+  padding-top: 20px;
+  flex-direction: row;
+  width: 100%;
+  justify-items: center;
+  justify-content: space-between;
+}
+
+.update-btn,
+.close-btn {
+  padding: 10px 10px;
+  font-size: 15px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  width: 120px;
+  /* Set a consistent width for both buttons */
+  text-align: center;
+
+}
+
+.update-btn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.close-btn {
+  background-color: #f44336;
+  color: white;
+}
